@@ -1,0 +1,24 @@
+.category-page {
+  padding-top: 100px; /* To account for the fixed header */
+  padding-bottom: 4rem;
+}
+
+.category-page h1 {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.category-page p {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}

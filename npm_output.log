@@ -1,0 +1,37 @@
+
+> frontend@0.0.0 dev
+> vite
+
+
+  VITE v7.2.6  ready in 233 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+3:25:49 PM [vite] (client) Pre-transform error: Failed to resolve import "../styles/OrderList.css" from "src/pages/OrderHistoryPage.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /app/src/pages/OrderHistoryPage.jsx:4:7
+  3  |  import OrderList from "../components/OrderList";
+  4  |  import "../styles/InfoPage.css";
+  5  |  import "../styles/OrderList.css";
+     |          ^
+  6  |  import "../styles/OrderDetail.css";
+  7  |  const OrderHistoryPage = () => {
+3:25:49 PM [vite] Internal server error: Failed to resolve import "../styles/OrderList.css" from "src/pages/OrderHistoryPage.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /app/src/pages/OrderHistoryPage.jsx:4:7
+  3  |  import OrderList from "../components/OrderList";
+  4  |  import "../styles/InfoPage.css";
+  5  |  import "../styles/OrderList.css";
+     |          ^
+  6  |  import "../styles/OrderDetail.css";
+  7  |  const OrderHistoryPage = () => {
+      at TransformPluginContext._formatLog (file:///app/node_modules/vite/dist/node/chunks/config.js:28992:43)
+      at TransformPluginContext.error (file:///app/node_modules/vite/dist/node/chunks/config.js:28989:14)
+      at normalizeUrl (file:///app/node_modules/vite/dist/node/chunks/config.js:27112:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///app/node_modules/vite/dist/node/chunks/config.js:27170:32
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///app/node_modules/vite/dist/node/chunks/config.js:27138:4)
+      at async EnvironmentPluginContainer.transform (file:///app/node_modules/vite/dist/node/chunks/config.js:28790:14)
+      at async loadAndTransform (file:///app/node_modules/vite/dist/node/chunks/config.js:22660:26)
+      at async viteTransformMiddleware (file:///app/node_modules/vite/dist/node/chunks/config.js:24532:20)

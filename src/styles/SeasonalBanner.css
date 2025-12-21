@@ -1,0 +1,22 @@
+.seasonal-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 6rem 2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1559526324-c1f275fbfa32?fit=crop&w=1280&h=400');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content h2 {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}

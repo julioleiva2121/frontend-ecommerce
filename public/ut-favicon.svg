@@ -1,0 +1,13 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 70px;
+      fill: #2c3e50;
+    }
+  </style>
+  <rect width="100" height="100" fill="#f8f9fa"/>
+  <text x="10" y="75" class="text">U</text>
+  <text x="45" y="75" class="text" fill="#3498db">T</text>
+</svg>
